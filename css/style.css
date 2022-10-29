@@ -1,0 +1,146 @@
+/***** NAVBAR *****/
+
+.navbar {
+    background-color: #2b5174;
+    border-radius: 10px;
+    
+}
+
+/* Navbar hover effects */
+.navbar-default .navbar-brand:hover,
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
+    color: rgb(36, 1, 36);
+    text-decoration: none;
+}
+
+/* Navbar links */
+.navbar-default .navbar-nav > li > a {
+    color: #fff;
+    font-size: 16px;
+    padding: 10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-decoration: underline rgb(36, 1, 36) 2px;
+    text-underline-offset: 3px;
+    
+    
+}
+
+/* Navbar collapsed styles */
+.navbar-toggler {
+    color: #fff;
+    border-color: #fff;
+    background-color: #863ee3;
+    border-radius: 4px;
+    border: 1px solid;
+    fill: #fff;
+    font-size: 16px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.navbar-toggler:hover,
+.navbar-toggler:focus {
+    background-color: #ebd122;
+    color: #242424;
+    fill: #242424;
+    border-color: #fff;
+
+}
+
+/*** JUMBOTRON ***/
+
+.jumbotron {
+    background-image: url("/assets/ultra-wide-wallpaper-abstract-topographic-background_87538-1076.jpg");
+    text-align: center;
+    color: white;
+    
+    padding: 7%;
+    border-radius: 10px;
+    height: 400px;
+}
+
+.jumbotron h2 {
+    text-decoration: overline rgb(36, 1, 36);
+    font-size: 55px;
+    color: white;
+    outline: white;
+    font-weight: bold;
+}
+.jumbotron p{
+    text-decoration: overline underline rgb(36, 1, 36) 4px;
+    text-underline-offset: 10px;
+    font-size: 30px;
+}
+
+.img-responsive{
+    width:100%;
+    height: 100%;
+}
+
+/*** CARD ***/
+
+.card {
+    background-color: rgb(30, 42, 51);
+    border-color: rgb(46, 95, 117);
+    border-width: 4px;
+    width: 100%;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+}
+
+.card:hover {
+    border-color: #682564;
+}
+
+/*** Basic Text Styles ***/
+
+#about-world {
+    max-height: 290px;
+}
+
+.resume h3 {
+    font-weight: bold;
+}
+
+
+hr {
+    border-color: white;
+    border-width: 2px;
+}
+
+p {
+    font-size: 20px;
+}
+
+a {
+    color: #863ee3;
+}
+
+a:hover {
+    color: #ebd122;
+}
+
+.container{
+    padding:25px 0;
+}
+.container-contact{
+    padding:25px 0;
+    text-align: center;
+    
+}
+
+.maptitle{
+    text-align: center;
+    padding: 10px;
+    color: white;
+}
+
+body {
+
+    font-family: 'Georgia', serif;
+    background-color: #8495af;
+    color: #242424;
+}
