@@ -95,6 +95,11 @@
     border-color: #682564;
 }
 
+.card-img-top {
+    width: 100%;
+    height: 250px;
+}
+
 /*** Basic Text Styles ***/
 
 #about-world {
