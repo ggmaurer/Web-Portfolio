@@ -167,4 +167,11 @@ body {
 
 .fantasy-map{
     margin:auto;
+    display:block;
+
+}
+
+.pov-edu{
+    margin:auto;
+    display:block;
 }
